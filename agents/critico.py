@@ -1,12 +1,18 @@
-"""Agente Crítico: Validador senior especializado en marketing digital.
+"""Agente Crítico: Especialista en validación final y garantía de calidad.
 
-Especializado en:
+ESPECIALIZACIÓN ÚNICA:
 1. Validación de coherencia de marca
 2. Garantía de calidad humana (anti-IA)
 3. Alineación estratégica con objetivos del cliente
 
-Entrada: Contenido final + Contexto completo del cliente
-Salida: Contenido validado y optimizado para máxima calidad
+LÍMITES ESTRICTOS:
+- NO genera nueva estrategia
+- NO adapta tono de marca
+- NO cambia estructura del contenido
+- SOLO valida y optimiza calidad final
+
+Entrada: Contenido personalizado + Contexto completo del cliente
+Salida: Contenido validado y optimizado para máxima calidad profesional
 """
 
 from utils.loader import load_prompt
@@ -16,23 +22,23 @@ import json
 def agente_critico(contenido_prev: str, contexto_cliente: dict, 
                    temperature: float = 0.1) -> str:
     """
-    Valida y optimiza contenido final según estándares Viara.
+    Valida SOLO la calidad final del contenido según estándares Viara.
     
     Args:
-        contenido_prev: Contenido adaptado por agente contexto
-        contexto_cliente: JSON completo con datos del cliente para validación
-        temperature: Temperatura del modelo (muy baja para consistencia)
+        contenido_prev: Contenido personalizado por agente contexto
+        contexto_cliente: JSON completo con datos del cliente para validación específica
+        temperature: Temperatura muy baja para máxima consistencia en validación
         
     Returns:
-        Contenido final validado y optimizado
+        Contenido final validado (igual o con optimizaciones mínimas de calidad)
     """
     template = load_prompt("prompts/critico.md")
     
-    # Construir prompt con contenido y contexto completo para validación
+    # Construir prompt con contenido y contexto completo para validación técnica
     prompt = template.format(
         contenido_prev=contenido_prev,
         contexto_cliente=json.dumps(contexto_cliente, indent=2, ensure_ascii=False)
     )
     
-    # Ejecutar con temperatura muy baja para máxima consistencia
+    # Ejecutar con temperatura muy baja para máxima consistencia en validación
     return run_llm(prompt, temperature=temperature)

@@ -1,12 +1,18 @@
-"""Agente Contexto: Adaptador de marca especializado.
+"""Agente Contexto: Especialista en adaptación de marca.
 
-Especializado en:
+ESPECIALIZACIÓN ÚNICA:
 1. Adaptar contenido estratégico al ADN de la marca
-2. Ajustar tono y vocabulario específico del cliente  
+2. Personalizar tono y vocabulario específico del cliente  
 3. Integrar hashtags y referencias naturalmente
 
+LÍMITES ESTRICTOS:
+- NO genera nueva estrategia
+- NO valida contenido
+- NO cambia estructura
+- SOLO personaliza tono al ADN de marca
+
 Entrada: Contenido estratégico + Contexto completo del cliente
-Salida: Contenido adaptado 100% al tono y estilo de la marca
+Salida: Contenido personalizado 100% al tono y estilo de la marca
 """
 
 from utils.loader import load_prompt
@@ -15,14 +21,14 @@ import json
 
 def agente_contexto(contenido_prev: str, contexto_cliente: dict) -> str:
     """
-    Adapta contenido estratégico al ADN específico de la marca.
+    Adapta SOLO el tono del contenido estratégico al ADN específico de la marca.
     
     Args:
         contenido_prev: Contenido estratégico generado por agente estrategia
         contexto_cliente: JSON completo con datos del cliente
         
     Returns:
-        Contenido adaptado al tono y estilo específico de la marca
+        Contenido con MISMO contenido pero personalizado al tono de la marca
     """
     template = load_prompt("prompts/contexto.md")
     
@@ -36,5 +42,5 @@ def agente_contexto(contenido_prev: str, contexto_cliente: dict) -> str:
         tono=tono
     )
     
-    # Ejecutar con temperatura moderada para mantener creatividad controlada
+    # Ejecutar con temperatura moderada para personalización creativa pero controlada
     return run_llm(prompt, temperature=0.4)
