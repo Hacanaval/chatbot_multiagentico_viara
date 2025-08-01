@@ -37,33 +37,33 @@ LÍMITES DE ESPECIALIZACIÓN:
 
 ESTRUCTURA DE SALIDA OBLIGATORIA:
 
-## ESTRATEGIA DIGITAL - {empresa}
+## ESTRATEGIA DIGITAL - [NOMBRE DE LA EMPRESA DEL CONTEXTO]
 
 ### PILARES DE CONTENIDO (3 exactos)
-1. {Pilar específico basado en pilares_de_contenido del cliente}
-2. {Pilar específico basado en pilares_de_contenido del cliente}
-3. {Pilar específico basado en pilares_de_contenido del cliente}
+1. [Pilar específico basado en pilares_de_contenido del cliente]
+2. [Pilar específico basado en pilares_de_contenido del cliente]
+3. [Pilar específico basado en pilares_de_contenido del cliente]
 
 ### BANCO DE IDEAS (10 exactas)
 | # | TÍTULO | OBJETIVO | FORMATO | CTA |
 |---|--------|----------|---------|------|
-| 1 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 2 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 3 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 4 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 5 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 6 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 7 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 8 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 9 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
-| 10 | {título específico del sector} | {atraer/convertir/fidelizar} | {formato de canales_activos} | {acción específica} |
+| 1 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 2 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 3 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 4 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 5 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 6 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 7 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 8 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 9 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
+| 10 | [título específico del sector] | [atraer/convertir/fidelizar] | [formato de canales_activos] | [acción específica] |
 
 ### MALLA SEMANAL (calendario ejecutable)
 | DÍA | FORMATO | PILAR | TEMA ESPECÍFICO |
 |-----|---------|-------|-----------------|
-| Lunes | {formato de canales_activos} | Pilar 1 | {tema inspiracional específico} |
-| Miércoles | {formato de canales_activos} | Pilar 2 | {producto/servicio específico} |
-| Viernes | {formato de canales_activos} | Pilar 3 | {tip/educativo específico} |
+| Lunes | [formato de canales_activos] | Pilar 1 | [tema inspiracional específico] |
+| Miércoles | [formato de canales_activos] | Pilar 2 | [producto/servicio específico] |
+| Viernes | [formato de canales_activos] | Pilar 3 | [tip/educativo específico] |
 
 REGLAS ANTI-ALUCINACIÓN:
 - USA EXCLUSIVAMENTE datos del contexto_cliente proporcionado
