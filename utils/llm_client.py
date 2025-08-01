@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-# Cargar variables de entorno
-load_dotenv()
+# Cargar variables de entorno (forzar recarga)
+load_dotenv(override=True)
 
 def run_llm(prompt: str,
             model: str = "gpt-4o-mini",
@@ -38,11 +38,13 @@ def run_llm(prompt: str,
         
         client = OpenAI(api_key=api_key)
         
+        max_tokens = int(os.getenv("OPENAI_MAX_TOKENS", "2000"))
+        
         response = client.chat.completions.create(
             model=model,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
-            max_tokens=2000  # Límite para respuestas largas
+            max_tokens=max_tokens
         )
         
         return response.choices[0].message.content

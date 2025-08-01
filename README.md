@@ -2,13 +2,13 @@
 ### *Asistente de Marketing Digital con IA Local*
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-green.svg)](https://ollama.ai)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green.svg)](https://openai.com)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-red.svg)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 📋 Descripción
 
-**VIARA** es un chatbot multiagente modular diseñado específicamente para agencias de marketing digital. Funciona **completamente local** usando modelos LLM de Ollama, garantizando privacidad total de los datos de tus clientes.
+**VIARA** es un chatbot multiagente modular diseñado específicamente para agencias de marketing digital. Utiliza **OpenAI GPT-4o mini** para generar contenido de alta calidad de forma rápida y eficiente.
 
 ### 🎯 **¿Para qué sirve?**
 
@@ -39,7 +39,7 @@
 
 ### **Prerrequisitos**
 - Python 3.10+
-- [Ollama](https://ollama.ai) instalado localmente
+- [API Key de OpenAI](https://platform.openai.com/api-keys)
 
 ### **1. Clonar el repositorio**
 ```bash
@@ -52,13 +52,15 @@ cd chatbot_multiagentico_viara
 pip install -r requirements.txt
 ```
 
-### **3. Configurar Ollama**
+### **3. Configurar OpenAI**
 ```bash
-# Descargar modelo recomendado
-ollama pull phi3:mini
+# Crear archivo de configuración
+echo "OPENAI_API_KEY=tu_api_key_aqui" > .env
+echo "OPENAI_MODEL=gpt-4o-mini" >> .env
+echo "OPENAI_TEMPERATURE_DEFAULT=0.3" >> .env
 
 # Verificar que funciona
-ollama run phi3:mini "Hola, ¿funciona correctamente?"
+python test_openai.py
 ```
 
 ### **4. Probar el sistema**
@@ -90,9 +92,9 @@ chatbot_multiagentico_viara/
 │       └── everest_cocktails.json # Ejemplo: cliente de cocteles
 │
 ├── utils/                         # 🛠️ Funciones auxiliares
-│   ├── ollama_client.py           # Cliente para LLM local
+│   ├── llm_client.py              # Cliente para OpenAI GPT-4o mini
 │   ├── loader.py                  # Carga archivos JSON/MD
-│   └── llm_config_ollama.py       # Config para AutoGen
+│   └── llm_config_autogen.py      # Config para AutoGen
 │
 ├── memory/                        # 💾 Memoria conversacional (v2.0)
 │   └── chat_logs/                 # Historial futuro
@@ -160,8 +162,8 @@ Eres el **Planner Estratégico** de [TU AGENCIA].
 
 ### **Cambiar Modelo LLM**
 ```python
-# En utils/ollama_client.py
-def run_llm(prompt: str, model: str = "llama3:8b"):  # Cambiar aquí
+# En utils/llm_client.py
+def run_llm(prompt: str, model: str = "gpt-4o-mini"):  # Cambiar aquí
 ```
 
 ### **Ajustar Temperatura**

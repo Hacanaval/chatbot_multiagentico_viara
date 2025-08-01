@@ -16,7 +16,7 @@ Salida: Estrategia digital estructurada (pilares + ideas + malla)
 """
 
 from utils.loader import load_json, load_prompt
-from utils.ollama_client import run_llm
+from utils.llm_client import run_llm
 import json
 
 def agente_estrategia(consulta_usuario: str, contexto_cliente: dict) -> str:

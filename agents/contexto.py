@@ -16,7 +16,7 @@ Salida: Contenido personalizado 100% al tono y estilo de la marca
 """
 
 from utils.loader import load_prompt
-from utils.ollama_client import run_llm
+from utils.llm_client import run_llm
 import json
 
 def agente_contexto(contenido_prev: str, contexto_cliente: dict) -> str:

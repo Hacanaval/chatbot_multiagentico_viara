@@ -24,7 +24,7 @@ def test_estructura_archivos():
         "data/clientes/restaurante_gourmet.json",
         "orchestrator_parallel.py",
         "utils/loader.py",
-        "utils/ollama_client.py"
+        "utils/llm_client.py"
     ]
     
     for archivo in archivos_requeridos:
@@ -45,8 +45,8 @@ def test_imports():
         from utils.loader import load_json, load_prompt, save_json, save_prompt
         print("  ✅ utils.loader")
         
-        from utils.ollama_client import run_llm
-        print("  ✅ utils.ollama_client")
+        from utils.llm_client import run_llm
+        print("  ✅ utils.llm_client")
         
         from agents.estrategia import agente_estrategia
         print("  ✅ agents.estrategia")
