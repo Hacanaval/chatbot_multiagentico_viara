@@ -3,6 +3,7 @@ ollama>=0.1.0
 
 # === UI FRAMEWORK ===
 streamlit>=1.28.0
+pathlib>=1.0.1  # Para manejo de rutas
 
 # === MULTIAGENT FRAMEWORKS ===
 pyautogen>=0.2.0

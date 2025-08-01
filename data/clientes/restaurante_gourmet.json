@@ -1,0 +1,43 @@
+{
+  "empresa": "Restaurante Gourmet La Mesa",
+  "sector": "Gastronomía - Restaurante gourmet",
+  "contexto_general": {
+    "mision": "Ofrecer experiencias gastronómicas únicas con ingredientes de primera calidad",
+    "vision": "Ser el restaurante gourmet de referencia en la ciudad",
+    "valores": ["excelencia", "tradición", "innovación", "servicio excepcional"]
+  },
+  "audiencia": {
+    "target_principal": ["adultos de 30-55 años", "parejas", "ejecutivos"],
+    "segmentos": {
+      "Parejas románticas": {"intereses": ["cenas especiales", "aniversarios", "ambiente íntimo"]},
+      "Ejecutivos": {"intereses": ["comidas de negocios", "calidad premium", "servicio rápido"]},
+      "Gourmets": {"intereses": ["gastronomía de autor", "maridajes", "experiencias únicas"]}
+    },
+    "insights": [
+      "valoran la calidad por encima del precio",
+      "buscan experiencias memorables",
+      "influenciados por recomendaciones y reseñas"
+    ]
+  },
+  "objetivos_estrategicos": {
+    "corto_plazo": ["aumentar reservas online", "mejorar presencia en Instagram"],
+    "mediano_largo_plazo": ["posicionarse como destino gastronómico premium"]
+  },
+  "competencia": ["Otros restaurantes fine dining", "Hoteles 5 estrellas"],
+  "menciones_estrategicas": {
+    "tono": "elegante, sofisticado y cálido",
+    "hashtags_frecuentes": ["#LaMesaGourmet", "#GastronomiaDeAutor", "#ExperienciaGourmet"]
+  },
+  "canales_activos": {
+    "Instagram": {"formato": ["Reels gastronómicos", "Historias del chef", "Carruseles de platillos"], "frecuencia": "5-6/sem"},
+    "Facebook": {"formato": ["Posts promocionales", "Eventos especiales"], "frecuencia": "3/sem"},
+    "Google My Business": {"formato": ["Actualizaciones", "Fotos"], "frecuencia": "2/sem"}
+  },
+  "pilares_de_contenido": [
+    "Showcase de platillos signature",
+    "Behind the scenes en cocina",
+    "Maridajes y recomendaciones del sommelier",
+    "Eventos y cenas temáticas",
+    "Testimoniales de clientes"
+  ]
+}
