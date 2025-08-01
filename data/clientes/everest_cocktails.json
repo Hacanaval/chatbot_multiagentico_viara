@@ -1,0 +1,39 @@
+{
+  "empresa": "Everest Cocktails",
+  "sector": "Bebidas alcohólicas - Cocteles ready-to-drink",
+  "contexto_general": {
+    "mision": "Ofrecer experiencias únicas de sabor con cocteles innovadores y listos para disfrutar",
+    "vision": "Convertirse en la marca de cocteles favorita del público joven en eventos sociales",
+    "valores": ["innovación", "calidad", "diversión", "experiencias memorables"]
+  },
+  "audiencia": {
+    "target_principal": ["jóvenes de 20-35 años"],
+    "segmentos": {
+      "Estudiantes universitarios": {"intereses": ["fiestas", "tendencias digitales"]},
+      "Profesionales jóvenes": {"intereses": ["after office", "consumo premium accesible"]}
+    },
+    "insights": [
+      "buscan productos fáciles y listos para usar",
+      "prefieren marcas cercanas y divertidas en redes"
+    ]
+  },
+  "objetivos_estrategicos": {
+    "corto_plazo": ["aumentar engagement en Instagram"],
+    "mediano_largo_plazo": ["posicionar la marca como referente ready-to-drink"]
+  },
+  "competencia": ["Zubrowka Cocktails", "Mixx", "Bacardi RTD"],
+  "menciones_estrategicas": {
+    "tono": "fresco, divertido, juvenil y cercano",
+    "hashtags_frecuentes": ["#EverestCocktails", "#ReadyToDrink"]
+  },
+  "canales_activos": {
+    "Instagram": {"formato": ["Reels", "Historias", "Carruseles"], "frecuencia": "4-5/sem"},
+    "TikTok":   {"formato": ["Videos cortos"], "frecuencia": "3/sem"}
+  },
+  "pilares_de_contenido": [
+    "Lifestyle juvenil y social",
+    "Recetas creativas con Everest",
+    "Eventos y experiencias en vivo",
+    "Contenido UGC"
+  ]
+}

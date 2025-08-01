@@ -1,0 +1,20 @@
+# === CORE DEPENDENCIES ===
+ollama>=0.1.0
+
+# === UI FRAMEWORK ===
+streamlit>=1.28.0
+
+# === MULTIAGENT FRAMEWORKS ===
+pyautogen>=0.2.0
+
+# === UTILITY LIBRARIES ===
+pathlib2>=2.3.0  # Para compatibilidad de rutas
+python-dotenv>=1.0.0  # Para variables de entorno en el futuro
+
+# === DEVELOPMENT & TESTING ===
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# === OPTIONAL: ENHANCED FEATURES ===
+# chromadb>=0.4.0  # Para memoria vectorial en v2.0
+# sqlalchemy>=2.0.0  # Para base de datos en v2.0
