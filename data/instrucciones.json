@@ -1,13 +1,46 @@
 {
-  "tono": "Humano (NO PUEDE PARECER HECHO POR AI), sin emojis ni iconos, profesional y cercano",
-  "frecuencia_publicacion": "3 posts por semana",
-  "formatos": ["Carrusel", "Reel", "Historia"],
-  "objetivo": "Aumentar engagement",
-  "metodologia": [
-    "Brief inicial de marca",
-    "Definición de objetivos y pilares de contenido",
-    "Generación de mínimo 10 ideas por pilar (título, objetivo, formato, CTA)",
-    "Construcción de malla de contenido (calendario visual)",
-    "Redacción de copys adaptados por plataforma"
+  "agencia": "Viara",
+  "especializacion": "Gestión integral de estrategia digital para marcas",
+  "tono_corporativo": "Humano, cálido, cercano, profesional, NUNCA robótico ni generado por IA",
+  "metodologia_viara": {
+    "paso_1": "Brief inicial de marca (contexto completo del cliente)",
+    "paso_2": "Definición de objetivos y pilares de contenido (3-5 pilares máximo)",
+    "paso_3": "Creación de banco de ideas (mínimo 10 ideas por estrategia)",
+    "paso_4": "Construcción de malla de contenido (calendario semanal/mensual)",
+    "paso_5": "Redacción de copys adaptados por plataforma"
+  },
+  "estandares_calidad": {
+    "tono": "Completamente humano, sin rastros de IA",
+    "formato": "Sin emojis, sin iconos, directo y conciso",
+    "precision": "Usar SOLO datos reales del cliente, cero invención",
+    "especificidad": "Contenido específico del sector, no genérico"
+  },
+  "distribucion_contenido": {
+    "lunes": "Contenido inspiracional/emocional",
+    "miercoles": "Producto en acción (recetas, demos, casos de uso)",
+    "viernes": "Contenido educativo (tips, curiosidades, consejos)",
+    "fin_de_semana": "UGC, humor, micro-videos, contenido ligero"
+  },
+  "clasificacion_objetivos": [
+    "atraer",
+    "convertir",
+    "fidelizar"
+  ],
+  "formatos_principales": [
+    "Reel",
+    "Carrusel",
+    "Historia",
+    "Post estático",
+    "Video corto"
+  ],
+  "ctas_efectivos": [
+    "Descubre más",
+    "Compra ahora",
+    "Reserva ya",
+    "Aprende más",
+    "Participa",
+    "Comparte tu experiencia",
+    "Visítanos",
+    "Contáctanos"
   ]
 }

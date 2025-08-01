@@ -4,14 +4,42 @@
   "contexto_general": {
     "mision": "Ofrecer experiencias gastronómicas únicas con ingredientes de primera calidad",
     "vision": "Ser el restaurante gourmet de referencia en la ciudad",
-    "valores": ["excelencia", "tradición", "innovación", "servicio excepcional"]
+    "valores": [
+      "excelencia",
+      "tradición",
+      "innovación",
+      "servicio excepcional"
+    ]
   },
   "audiencia": {
-    "target_principal": ["adultos de 30-55 años", "parejas", "ejecutivos"],
+    "target_principal": [
+      "adultos de 30-55 años",
+      "parejas",
+      "ejecutivos",
+      "amantes de la gastronomía"
+    ],
     "segmentos": {
-      "Parejas románticas": {"intereses": ["cenas especiales", "aniversarios", "ambiente íntimo"]},
-      "Ejecutivos": {"intereses": ["comidas de negocios", "calidad premium", "servicio rápido"]},
-      "Gourmets": {"intereses": ["gastronomía de autor", "maridajes", "experiencias únicas"]}
+      "Parejas románticas": {
+        "intereses": [
+          "cenas especiales",
+          "aniversarios",
+          "ambiente íntimo"
+        ]
+      },
+      "Ejecutivos": {
+        "intereses": [
+          "comidas de negocios",
+          "calidad premium",
+          "servicio rápido"
+        ]
+      },
+      "Gourmets": {
+        "intereses": [
+          "gastronomía de autor",
+          "maridajes",
+          "experiencias únicas"
+        ]
+      }
     },
     "insights": [
       "valoran la calidad por encima del precio",
@@ -20,18 +48,56 @@
     ]
   },
   "objetivos_estrategicos": {
-    "corto_plazo": ["aumentar reservas online", "mejorar presencia en Instagram"],
-    "mediano_largo_plazo": ["posicionarse como destino gastronómico premium"]
+    "corto_plazo": [
+      "aumentar reservas online",
+      "mejorar presencia en Instagram"
+    ],
+    "mediano_largo_plazo": [
+      "posicionarse como destino gastronómico premium",
+      "expandir base de clientes corporativos"
+    ]
   },
-  "competencia": ["Otros restaurantes fine dining", "Hoteles 5 estrellas"],
+  "competencia": [
+    "Otros restaurantes fine dining",
+    "Hoteles 5 estrellas",
+    "Restaurantes de autor"
+  ],
   "menciones_estrategicas": {
     "tono": "elegante, sofisticado y cálido",
-    "hashtags_frecuentes": ["#LaMesaGourmet", "#GastronomiaDeAutor", "#ExperienciaGourmet"]
+    "hashtags_frecuentes": [
+      "#LaMesaGourmet",
+      "#GastronomiaDeAutor",
+      "#ExperienciaGourmet"
+    ],
+    "campañas_relevantes": [
+      "Menús estacionales",
+      "Cenas maridaje",
+      "Eventos corporativos"
+    ]
   },
   "canales_activos": {
-    "Instagram": {"formato": ["Reels gastronómicos", "Historias del chef", "Carruseles de platillos"], "frecuencia": "5-6/sem"},
-    "Facebook": {"formato": ["Posts promocionales", "Eventos especiales"], "frecuencia": "3/sem"},
-    "Google My Business": {"formato": ["Actualizaciones", "Fotos"], "frecuencia": "2/sem"}
+    "Instagram": {
+      "formato": [
+        "Reels gastronómicos",
+        "Historias del chef",
+        "Carruseles de platillos"
+      ],
+      "frecuencia": "5-6 veces por semana"
+    },
+    "Facebook": {
+      "formato": [
+        "Posts promocionales",
+        "Eventos especiales"
+      ],
+      "frecuencia": "3 veces por semana"
+    },
+    "Google My Business": {
+      "formato": [
+        "Actualizaciones",
+        "Fotos"
+      ],
+      "frecuencia": "2 veces por semana"
+    }
   },
   "pilares_de_contenido": [
     "Showcase de platillos signature",
@@ -39,5 +105,19 @@
     "Maridajes y recomendaciones del sommelier",
     "Eventos y cenas temáticas",
     "Testimoniales de clientes"
-  ]
+  ],
+  "tipo_de_contenido": {
+    "ideas_de_contenido": [
+      "Reel mostrando preparación de plato signature",
+      "Carrusel con proceso de maridaje paso a paso",
+      "Historias del chef explicando técnicas",
+      "Videos de testimoniales de clientes satisfechos"
+    ],
+    "malla_de_contenido": {
+      "lunes": "Inspiración gastronómica / Reel de platillo",
+      "miercoles": "Behind the scenes cocina / Proceso de preparación",
+      "viernes": "Maridaje o recomendación del sommelier",
+      "sabado": "Evento especial o cena temática"
+    }
+  }
 }

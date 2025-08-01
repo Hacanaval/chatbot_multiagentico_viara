@@ -1,39 +1,105 @@
 {
   "empresa": "Everest Cocktails",
-  "sector": "Bebidas alcohólicas - Cocteles ready-to-drink",
+  "sector": "Bebidas alcohólicas - Cocteles listos para tomar",
   "contexto_general": {
     "mision": "Ofrecer experiencias únicas de sabor con cocteles innovadores y listos para disfrutar",
     "vision": "Convertirse en la marca de cocteles favorita del público joven en eventos sociales",
-    "valores": ["innovación", "calidad", "diversión", "experiencias memorables"]
+    "valores": [
+      "innovación",
+      "calidad",
+      "diversión",
+      "experiencias memorables"
+    ]
   },
   "audiencia": {
-    "target_principal": ["jóvenes de 20-35 años"],
+    "target_principal": [
+      "jóvenes de 20-35 años",
+      "amantes de la vida social y las experiencias divertidas"
+    ],
     "segmentos": {
-      "Estudiantes universitarios": {"intereses": ["fiestas", "tendencias digitales"]},
-      "Profesionales jóvenes": {"intereses": ["after office", "consumo premium accesible"]}
+      "Estudiantes universitarios": {
+        "intereses": [
+          "fiestas",
+          "planes con amigos",
+          "tendencias digitales"
+        ]
+      },
+      "Profesionales jóvenes": {
+        "intereses": [
+          "after office",
+          "eventos sociales",
+          "consumo premium accesible"
+        ]
+      }
     },
     "insights": [
       "buscan productos fáciles y listos para usar",
-      "prefieren marcas cercanas y divertidas en redes"
+      "prefieren marcas cercanas, divertidas y con presencia en redes sociales"
     ]
   },
   "objetivos_estrategicos": {
-    "corto_plazo": ["aumentar engagement en Instagram"],
-    "mediano_largo_plazo": ["posicionar la marca como referente ready-to-drink"]
+    "corto_plazo": [
+      "aumentar engagement en Instagram",
+      "generar ventas directas en eventos"
+    ],
+    "mediano_largo_plazo": [
+      "posicionar la marca como referente de cocteles ready-to-drink",
+      "crear comunidad en torno a experiencias sociales"
+    ]
   },
-  "competencia": ["Zubrowka Cocktails", "Mixx", "Bacardi RTD"],
+  "competencia": [
+    "Zubrowka Cocktails",
+    "Mixx",
+    "Bacardi RTD"
+  ],
   "menciones_estrategicas": {
     "tono": "fresco, divertido, juvenil y cercano",
-    "hashtags_frecuentes": ["#EverestCocktails", "#ReadyToDrink"]
+    "hashtags_frecuentes": [
+      "#EverestCocktails",
+      "#ExperienciasEverest",
+      "#ReadyToDrink"
+    ],
+    "campañas_relevantes": [
+      "Lanzamiento en bares universitarios",
+      "Activaciones en festivales locales"
+    ]
   },
   "canales_activos": {
-    "Instagram": {"formato": ["Reels", "Historias", "Carruseles"], "frecuencia": "4-5/sem"},
-    "TikTok":   {"formato": ["Videos cortos"], "frecuencia": "3/sem"}
+    "Instagram": {
+      "formato": [
+        "Reels",
+        "Historias",
+        "Carruseles"
+      ],
+      "frecuencia": "4-5 veces por semana"
+    },
+    "TikTok": {
+      "formato": [
+        "Videos cortos",
+        "Tendencias",
+        "UGC"
+      ],
+      "frecuencia": "3 veces por semana"
+    }
   },
   "pilares_de_contenido": [
     "Lifestyle juvenil y social",
     "Recetas creativas con Everest",
     "Eventos y experiencias en vivo",
-    "Contenido UGC"
-  ]
+    "Contenido UGC (clientes disfrutando el producto)"
+  ],
+  "tipo_de_contenido": {
+    "ideas_de_contenido": [
+      "Reel mostrando cómo servir Everest en 3 segundos",
+      "Carrusel con 5 formas creativas de combinar Everest",
+      "Historias de activaciones en bares",
+      "Videos UGC de clientes en eventos"
+    ],
+    "malla_de_contenido": {
+      "lunes": "Lifestyle / Reel corto",
+      "miercoles": "Tip de consumo o receta creativa",
+      "viernes": "UGC o repost de cliente",
+      "sabado": "Cobertura de evento o activación"
+    }
+  }
 }
